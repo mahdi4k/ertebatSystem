@@ -1,0 +1,170 @@
+@media only screen and (max-width:1200px){
+    .con{
+        flex-wrap: wrap;
+        margin: 0;
+
+    }
+    .consaf{
+        left: 14%;
+        top: 35%;
+
+    }
+
+    .dolg{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .ufhi{
+        display: block;
+
+    }
+    #img-three{
+        display: block;
+        margin:  20px auto;
+    }
+    .con{
+        padding-top: 217px;
+        justify-content: center;
+    }
+    .consaf{
+        left: 29%;
+        top: 12%;
+        text-align: center;
+    }
+    .head-img img{
+        width: 300px;
+    }
+    .res-menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    nav{
+        padding: 10px 0;
+    }
+    nav{
+       display: none; 
+    }
+    .bulding{
+        width: auto;
+        height: auto;
+    }
+    .head-img img{
+        margin: 0 auto;
+        display: block;
+    }
+    .head-con{
+        justify-content: center !important;
+    }
+    .head-container{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .con img{
+        width: 110px;
+        height: 110px;
+    }
+    video {
+        width: 351px;
+        height: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+    .mardom{
+        font-size: 30px;
+    }
+    .mardom-dis{
+        font-size: 20px;
+    }
+    .head-container{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .con-introduct{
+        max-width: 403px;
+        margin: 0px auto;
+
+    }
+
+    .con-im{
+        margin: 20px auto;
+    }
+
+    .cen{
+        margin: 0 ;
+    }
+
+    .container-discribtion{
+        justify-content: center;
+    }
+
+    .col-ce-res{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-1{
+        padding: 50px 20px;
+    }
+    .order-0{
+        order: 0;
+    }
+    .order-1{
+        order: 1;
+        margin-top: 20px;
+    }
+
+      footer ul{
+        margin: 0 30px;
+    } 
+
+}
+
+@media only screen and (max-width:460px){
+    .consaf{
+        left: 22%;
+    }
+}
+
+
+@media only screen and (max-width:410px){
+    video {
+        width: 287px;
+        height: 164px;
+    }
+    .introdauction{
+        width: 150px;
+    }
+    .head-img img{
+        width: 260px;
+    }
+    .con img{
+        margin: 0 5px;
+    }
+    .consaf{
+        left: 18%;
+    }
+}
+
+@media only screen and (max-width:360px){
+    footer ul a{
+        font-size: 14px;
+    } 
+    footer ul{
+        margin: 0 30px;
+    } 
+    footer .row{
+        flex-direction: column;
+    }
+    footer ul li{
+        width: 140px;
+    }
+    .consaf{
+        left: 13%;
+    }
+}
