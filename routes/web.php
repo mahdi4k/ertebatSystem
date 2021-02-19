@@ -41,7 +41,6 @@ Route::prefix('ertebat')->group(function () {
     Route::post('/survey/{questionnaire}/questions','survey\QuestionController@store');
     Route::get('/surveys/{questionnaire}-{slug}','survey\SurveyController@show');
     Route::post('/surveys/{questionnaire}-{slug}','survey\SurveyController@store');
-    Route::post('/surveys/{questionnaire}-{slug}','survey\SurveyController@store');
     Route::delete('/questionnaires/{questionnaire}/questions/{question}','survey\QuestionController@destroy');
     Route::delete('/questionnaires/{questionnaire}/questions/','HomeController@destroy');
 
